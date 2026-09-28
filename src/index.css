@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ─── Reset & Base ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #f3f4f6; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+
+/* ─── Container ─── */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ─── Section ─── */
+.section {
+  padding: 72px 0;
+}
+
+/* ─── Section title ─── */
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+.section-line {
+  width: 36px;
+  height: 3px;
+  background: #3b82f6;
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+
+/* ─── Buttons ─── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+.btn-blue {
+  background: #3b82f6;
+  color: #fff;
+}
+.btn-blue:hover { background: #2563eb; }
+
+.btn-outline {
+  background: #fff;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+}
+.btn-outline:hover { background: #f9fafb; border-color: #d1d5db; }
+
+/* ─── Card ─── */
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* ─── Badge / tag ─── */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  background: #eff6ff;
+  color: #2563eb;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.badge-gray {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+/* ─── Skill bar ─── */
+.skill-bar-bg {
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.skill-bar-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 3px;
+  width: 0%;
+  transition: width 1s ease;
+}
+
+/* ─── Fade in ─── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Timeline dot ─── */
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 2px solid #fff;
+  outline: 2px solid #3b82f6;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+/* ─── Nav link ─── */
+.nav-link {
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 0;
+  transition: color 0.15s;
+}
+.nav-link:hover, .nav-link.active { color: #111827; }
