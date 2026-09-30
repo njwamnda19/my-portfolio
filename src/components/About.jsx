@@ -41,7 +41,7 @@ export default function About() {
             </div>
             <a 
             href={profile.cvUrl} 
-            download = "CV Najwa -Eng.pdf"
+            download = "CV Najwa Amanda.pdf"
             target="_blank" rel="noopener noreferrer"
               className="btn btn-outline" style={{ marginTop: '20px', display: 'inline-flex' }}>
               <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
