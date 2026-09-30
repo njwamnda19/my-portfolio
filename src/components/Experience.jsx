@@ -3,9 +3,9 @@ import { experiences } from '../data/experience';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 const typeColor = {
-  work: { bg: '#eff6ff', text: '#2563eb', label: 'Kerja' },
-  organization: { bg: '#f0fdf4', text: '#16a34a', label: 'Organisasi' },
-  internship: { bg: '#fefce8', text: '#ca8a04', label: 'Magang' },
+  work: { bg: '#eff6ff', text: '#2563eb', label: 'Work' },
+  organization: { bg: '#f0fdf4', text: '#16a34a', label: 'Organization' },
+  internship: { bg: '#fefce8', text: '#ca8a04', label: 'Intern' },
 };
 
 export default function Experience() {

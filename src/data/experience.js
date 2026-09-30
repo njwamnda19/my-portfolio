@@ -19,8 +19,8 @@ export const experiences = [
   },
   {
     id: 2,
-    type: "intern",
-    position: "Quality Control For Sales Alta Global School Intern",
+    type: "internship",
+    position: "Quality Control For Sales Alta Global School",
     company: "PT Partner Impian Milenial (Schoters)",
     location: "Jakarta, Indonesia",
     period: "Aug 2025 – Dec 2025",

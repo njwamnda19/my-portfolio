@@ -19,8 +19,8 @@ export default function About() {
         }} className="about-grid">
           <div>
             <p style={{ fontSize: '15px', color: '#4b5563', lineHeight: 1.75, marginBottom: '16px' }}>
-              Saya adalah mahasiswa Informatika yang tertarik di bidang <strong>data analyst</strong> dan
-              <strong> quality control</strong>. Saya suka mencoba mengaplikasikan ilmu IT ke dalam masalah nyata.
+              Saya adalah mahasiswa Informatika yang tertarik di bidang <strong>QC/QA</strong> dan
+              <strong> IT Application Support</strong>. Saya suka mencoba mengaplikasikan ilmu IT ke dalam masalah nyata.
             </p>
             <p style={{ fontSize: '15px', color: '#4b5563', lineHeight: 1.75, marginBottom: '24px' }}>
               Saya juga aktif di organisasi Unit Aktifitas Mahasiswa Teknik Informatika (UNITAS TI) periode 2023-2024 dan saya senang berbagi ilmu dengan teman-teman.
@@ -52,8 +52,8 @@ export default function About() {
             </a>
           </div>
           <div>
-            <p style={{ fontSize: '13px', fontWeight: 600, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '16px' }}>
-              Pendidikan
+            <p style={{ fontSize: '14px', fontWeight: 600, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '16px' }}>
+              EDUCATION
             </p>
             {education.map(edu => (
               <div key={edu.id} className="card" style={{ marginBottom: '12px' }}>

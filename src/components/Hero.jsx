@@ -4,8 +4,9 @@ export default function Hero() {
   const scrollTo = id => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 
   return (
-    <section id="home" style={{ background: '#fff', paddingTop: '100px', paddingBottom: '64px', borderBottom: '1px solid #e5e7eb' }}>
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '40px 16px' }}>
+    <section id="home" 
+    style={{ background: '#fff', paddingTop: '70px', paddingBottom: '10px', borderBottom: '1px solid #e5e7eb' }}>
+      <div className="bg-gradient-to-br from-slate-50 to-blue-100 pt-[100px] pb-16 border-b border-gray-200" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', padding: '40px 16px' }}>
       {/* Badge Open to Work */}
       <span style={{
         display: 'inline-flex',
@@ -52,16 +53,17 @@ export default function Hero() {
       </div>
 
       {/* Nama & Deskripsi */}
+      
       <h1 style={{ fontSize: '32px', fontWeight: 800, color: '#111827', margin: '0 0 8px 0', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
         Hi, I'm Najwa Amanda <span>👋</span>
       </h1>
 
       <h2 style={{ fontSize: '18px', fontWeight: 600, color: '#2563eb', margin: '0 0 16px 0' }}>
-        Data Analyst & QA/QC
+        QC/QA and IT Support
       </h2>
 
       <p style={{ maxWidth: '650px', fontSize: '14px', color: '#4b5563', lineHeight: 1.6, margin: '0 0 16px 0' }}>
-        Mahasiswa Informatika yang passionate di bidang quality control dan tertarik di bidang data dan front-end development. Suka belajar teknologi baru dan suka melakukan experiment kecil-kecilan.
+        Mahasiswa Informatika yang passionate di bidang quality control dan tertarik di bidang QC/QA dan IT Application Support. Suka mengulik dan suka melakukan experiment kecil-kecilan.
       </p>
 
       {/* Lokasi */}

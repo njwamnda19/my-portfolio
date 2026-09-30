@@ -1,6 +1,6 @@
 export const profile = {
   name: "Najwa Amanda",
-  title: "Data Analysis & QA/QC",
+  title: "QC/QA and IT Support",
   subtitle: "Building elegant digital experiences with modern technologies",
   bio: "I'm a passionate software developer with a strong foundation in web technologies and a keen eye for design. I love turning complex problems into simple, beautiful, and intuitive solutions. Currently focused on building scalable web applications and exploring the intersection of technology and user experience.",
   location: "Depok, Indonesia",

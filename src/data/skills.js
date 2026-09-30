@@ -48,6 +48,8 @@ export const skills = [
       { name: "Microsoft Excel", level: 88 },
       { name: "Airtable", level: 75 },
       { name: "Google Sheets", level: 85 },
+      { name: "Google Workspace", level: 85 },
+      { name: "Microsoft Office", level: 85 },
     ],
   },
 ];
