@@ -40,7 +40,7 @@ export default function Hero() {
         justifyContent: 'center',
       }}>
         <img 
-          src="/public/my photo.png" 
+          src="/my photo.png" 
           alt="Najwa Amanda" 
           style={{ 
             width: '100%', 
