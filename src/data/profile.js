@@ -10,7 +10,7 @@ export const profile = {
   linkedin: "https://linkedin.com/in/najwa-amanda",
   github: "https://github.com/njwamnda19",
   instagram: "https://instagram.com/najwa_amand.a",
-  cvUrl: "/documents/CV Najwa Terbaru.pdf",
+  cvUrl: "/documents/najwa amanda (2).pdf",
   availableForWork: true,
   interests: [
     "Web Development",
