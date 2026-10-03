@@ -41,4 +41,21 @@ export const projects = [
     featured: true,
     category: "Aplications",
   },
+
+  {
+    id: 4,
+    title: "Smart payment dashboard: Integrasi invoice, receipt & reminder",
+    description:
+      "Mini project by Najwa & Nabila about how to centralized payment management system that streamlines invoicing, receipt generation, payment reminders, and real-time status monitoring, reducing manual errors and improving transaction efficiency.",
+    longDescription:
+      "",
+    technologies: ["DurianPay", "Microsoft Excel", "Google Sheet", "AirTable"],
+    github: "",
+    demo: "https://simplebooklet.com/miniprojectbynabilanajwa",
+    image: "/smart dashboard.png",
+    featured: false,
+    category: "",
+  },
 ];
+
+

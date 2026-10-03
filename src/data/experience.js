@@ -33,7 +33,7 @@ export const experiences = [
       "Processed and tracked 200+ user payment transactions and administrative statuses via internal digital dashboards.",
       "Verified document completeness and updated user database records to maintain data integrity.",
     ],
-    technologies: ["AirTable", "Google Workspace", "Microsoft Office"],
+    technologies: ["AirTable", "Google Workspace", "Microsoft Office", "DurianPay"],
     logo: null,
   },
   {
@@ -68,10 +68,10 @@ export const education = [
     period: "2023 – 2027",
     gpa: "3.83 / 4.00",
     achievements: [
-      "Quality Control & Admission Officer Intern at Schoters",
-      "Completed Magang Berdampak Batch 1",
-      "Active contributor in Informatics Engineering student organization",
-      "Event committee member for Klikfest 2025"
+      "- Quality Control & Admission Officer Intern at Schoters",
+      "- Completed Magang Berdampak Batch 1",
+      "- Active contributor in Informatics Engineering student organization",
+      "- Event committee member for Klikfest 2025"
     ],
     relevantCourses: [
       "Algorithms & Data Structures",
