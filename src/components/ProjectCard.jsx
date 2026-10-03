@@ -25,6 +25,13 @@ export default function ProjectCard({ project }) {
           <span style={{ position: 'absolute', top: '8px', right: '8px', fontSize: '11px', fontWeight: 600, padding: '2px 8px', background: '#fef3c7', color: '#d97706', borderRadius: '4px' }}>⭐ Featured</span>
         )}
       </div>
+
+      {project.status && (
+            <span className={`status-badge ${project.status.toLowerCase()}`}>
+        ● {project.status}
+      </span>
+      )}
+      
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <h3 style={{ fontWeight: 600, fontSize: '15px', color: '#111827' }}>{project.title}</h3>

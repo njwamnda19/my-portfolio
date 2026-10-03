@@ -11,6 +11,7 @@ export const projects = [
     demo: "",
     image: null,
     featured: true,
+    status: "Ongoing",
     category: "Web App",
   },
   {
